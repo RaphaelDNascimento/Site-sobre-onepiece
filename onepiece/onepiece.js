@@ -1,0 +1,3 @@
+function clique(){
+    window.location()
+}
