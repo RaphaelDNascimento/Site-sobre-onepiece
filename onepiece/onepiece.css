@@ -125,4 +125,6 @@ footer p,a{
 
 #res{
     font-weight: bolder;
+    color: steelblue;
+    position: right;
 }
