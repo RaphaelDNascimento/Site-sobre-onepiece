@@ -57,11 +57,6 @@ main{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main .editp{
-    font-family: "op";
-    color: #00b7ff;
-}
-
 main a{
     background-color: #00b7ff;
     color: #ffffff;
@@ -75,6 +70,7 @@ main h1{
     font-family: "op";
     text-align: center;
     margin: 0.2em auto;
+    text-transform: uppercase;
 }
 
 main h2{
@@ -128,4 +124,34 @@ footer p,a{
     font-weight: bolder;
     color: rgb(0, 102, 255);
     position: right;
+}
+
+.mugi{
+    display: inline-block;
+    width: 10em;
+    height: 12em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 0.4em;
+    margin: 1em;
+    text-align: center;
+}
+.mugi p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+    background-color: #FFCD00;
+    margin: 5px;
+    border-radius: 10px;
+}
+.mugi h3{
+    background-image: linear-gradient(to right,black,white);
+    border-radius: 4px;
+    color: #fff;
+    margin: 5px;
+}
+main img{
+    width: 8em;
+    height: 7em;
 }
