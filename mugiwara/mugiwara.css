@@ -155,3 +155,10 @@ main img{
     width: 8em;
     height: 7em;
 }
+#res2{
+    display: inline;
+    padding: 1em;
+    color: rgb(132, 0, 255);
+    background-color: black;
+    width: 10em;
+}

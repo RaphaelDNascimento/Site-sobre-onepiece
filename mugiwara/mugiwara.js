@@ -11,3 +11,13 @@ const interval = setInterval(() => {
 
     document.getElementById('res').innerHTML = dataHora;
 }, 1000);
+
+    
+    var kk = new Date()
+    var kk2 = kk.getHours()
+    if(kk2 >= 6 && kk2 <= 19){
+        var foot = document.getElementById('foot')
+    foot.style.backgroundColor='white'
+    }
+    var res2 = document.getElementById('res2')
+    res2.innerHTML=`<p>${kk2} </p>`
