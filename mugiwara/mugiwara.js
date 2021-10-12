@@ -15,9 +15,12 @@ const interval = setInterval(() => {
     
     var kk = new Date()
     var kk2 = kk.getHours()
-    if(kk2 >= 6 && kk2 <= 19){
+    if(kk2 >= 3 && kk2 <= 19){
         var foot = document.getElementById('foot')
-    foot.style.backgroundColor='white'
+        foot.style.backgroundColor='white'
+        var cabecaa = document.querySelector('header')
+        cabecaa.style.backgroundColor='white'
+        var cabecinha = document.querySelector('a')
+        cabecinha.style.color='black'
     }
-    var res2 = document.getElementById('res2')
-    res2.innerHTML=`<p>${kk2} </p>`
+    
