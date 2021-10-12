@@ -108,6 +108,7 @@ footer{
     border-radius: 0.4em;
     padding: 0.5em;
     margin: 0.5em;
+    text-align: center;
 }
 
 footer p,a{
@@ -121,4 +122,10 @@ footer p,a{
 
 #kkk{
     background-color: aqua;
+}
+
+#res{
+    font-weight: bolder;
+    color: rgb(0, 102, 255);
+    position: right;
 }
